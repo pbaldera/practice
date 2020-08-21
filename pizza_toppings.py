@@ -1,4 +1,4 @@
-prompt = "\nTell me something, and I will repeat it back to you:"
+prompt = "\nWhich toppings would you like to add to your pizza? "
 prompt += "\nEnter 'quit' to end the program. "
 
 active = True
@@ -8,4 +8,4 @@ while active:
     if message == 'quit':
         active = False
     else:
-        print(message)
+        print(f"We will add {message} to your pizza!")
