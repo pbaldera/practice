@@ -14,7 +14,7 @@ class Restaurant:
         """Prints that the restaurant is open"""
         print(f"{self.restaurant_name} is open!")
 
+
 restaurant = Restaurant('Sabor', 'Latin')
 
 print(f"My restaurant name is {restaurant.restaurant_name} and it's type of cuisine is {restaurant.cuisine_type}")
-

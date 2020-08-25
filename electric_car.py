@@ -31,6 +31,7 @@ class Car:
         """Add the given amount of the odometer reading."""
         self.odometer_reading += miles
 
+
 class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles."""
 
@@ -45,6 +46,7 @@ class ElectricCar(Car):
     def describe_battery(self):
         """Print a statement describing the battery size."""
         print(f"This car has a {self.battery_size}-KWh battery.")
+
 
 my_tesla = ElectricCar('tesla', 'model s', 2019)
 print(my_tesla.get_descriptive_name())
